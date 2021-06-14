@@ -16,6 +16,12 @@ sudo make install
 
 ## Simulating
 
+* check the syntax using below command
+
+```
+ghdl -s adder.vhd
+```
+
 * analyze the design file by running below command
 
 ```
