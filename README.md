@@ -50,7 +50,9 @@ gtkwave adder_tb.vcd
 
 ## HDLs for FPGA Design
 
+This section documents learning from Hardware Description Languages for FPGA Design course. The directory `HDLs_For_FPGA_Design` contains all RTL files along with schematic and simulation waveforms.
+
 * comparator - Example demonstrating structural, dataflow and behavioural modelling
 * multiplexer - Example demonstrating Selected signal assignment, conditional assignment and process assignment
 * good_if, bad_if - Example demonstratig inferred latch due to improper if condition
-* d_latch, d_ff - demonstrates sequential logic design
+* d_latch, d_ff, shift_reg, counter - demonstrates sequential logic design
