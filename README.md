@@ -14,7 +14,7 @@ make
 sudo make install
 ```
 
-## Simulating
+## Simulating using GHDL
 
 * check the syntax using below command
 
@@ -45,3 +45,5 @@ ghdl -r adder_tb --vcd=adder_tb.vcd
 ```
 gtkwave adder_tb.vcd
 ```
+
+## HDLs for FPGA Design
