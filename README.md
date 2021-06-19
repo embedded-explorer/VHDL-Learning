@@ -1,6 +1,8 @@
 # VHDL-Learning
 
-## Installing GHDL
+## Open Source Tool Chain
+
+### Installing GHDL
 GHDL is opensource VHDL simulator.
 
 Run below commands to install GHDL on ubuntu 18.4 machine.
@@ -14,7 +16,7 @@ make
 sudo make install
 ```
 
-## Simulating using GHDL
+### Simulating using GHDL
 
 * check the syntax using below command
 
@@ -47,3 +49,8 @@ gtkwave adder_tb.vcd
 ```
 
 ## HDLs for FPGA Design
+
+* comparator - Example demonstrating structural, dataflow and behavioural modelling
+* multiplexer - Example demonstrating Selected signal assignment, conditional assignment and process assignment
+* good_if, bad_if - Example demonstratig inferred latch due to improper if condition
+* d_latch, d_ff - demonstrates sequential logic design
