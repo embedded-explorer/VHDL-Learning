@@ -55,7 +55,9 @@ This section documents learning from Hardware Description Languages for FPGA Des
 * comparator - Example demonstrating structural, dataflow and behavioural modelling
 * multiplexer - Example demonstrating Selected signal assignment, conditional assignment and process assignment
 * good_if, bad_if - Example demonstratig inferred latch due to improper if condition
-* d_latch, d_ff, shift_reg, counter - demonstrates sequential logic design
+* d_latch, d_ff, shift_reg - Demonstrates sequential logic design
+* adder, counter - Example demonstrating writing testbench
 * register_file - TBD
 * adder_inst, adder_gen - TBD
-* adder - Example demonstrating writing testbench for combinational circuits
+* memory - TBD
+* fsm - TBD
