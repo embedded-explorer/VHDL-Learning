@@ -57,7 +57,7 @@ This section documents learning from Hardware Description Languages for FPGA Des
 * good_if, bad_if - Example demonstratig inferred latch due to improper if condition
 * d_latch, d_ff, shift_reg - Demonstrates sequential logic design
 * adder, counter - Example demonstrating writing testbench
-* register_file - TBD
-* adder_inst, adder_gen - TBD
+* register_file - Modelling register file and checking by writing testbench
+* adder_inst, adder_gen - Structural modelling to generate 4 bit adder by implicitly instntiating full adder and by using for generate
 * memory - TBD
 * fsm - TBD
