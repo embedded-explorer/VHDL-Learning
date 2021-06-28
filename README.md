@@ -59,5 +59,6 @@ This section documents learning from Hardware Description Languages for FPGA Des
 * adder, counter - Example demonstrating writing testbench
 * register_file - Modelling register file and checking by writing testbench
 * adder_inst, adder_gen - Structural modelling to generate 4 bit adder by implicitly instntiating full adder and by using for generate
-* memory - TBD
+* single_port_ram - Example describing modelling of sigle port RAM. If we implement asynchronous read then the logic gets mapped into LUT (Distributive Memory). If synchronous read operation is used then the logic gets mapped into Block RAM present within FPGA devices.
+
 * fsm - TBD
